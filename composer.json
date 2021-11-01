@@ -1,0 +1,24 @@
+{
+    "name": "surzhikov/location",
+    "description": "Eloquent-style wrapper for DaData service (geocoding) (for Laravel)",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Surzhikov\\Location\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Surzhikov",
+            "email": "andrey.surzhikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0",
+        "ext-json": "*",
+        "hflabs/dadata": "^20",
+        "illuminate/support": "^8"
+    }
+}
